@@ -20,8 +20,6 @@ body {
     display: flex;
 }
 
-
-
 .btn-contato button {
     padding: 10px 40px;
     font-size: 18px;
@@ -30,9 +28,7 @@ body {
     border: 0;
     border-radius: 30px;
     cursor: pointer;
-    transition: .2s;
-    box-shadow: 0px 0px 8px;
-    transform: scale(1.05);
+    transition: .2s;   
 }
 
 h2.titulo {
@@ -54,11 +50,6 @@ header {
     padding: 60px 4%;
 }
 
-header>.interface {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 header>.interface {
     display: flex;
     align-items: center;
@@ -88,6 +79,9 @@ header nav.menu-desktop ul li {
 }
 
 /*ESTILO DO MENU MOBILE*/
+.btn-abrir-menu {
+    display: none;
+}
 .btn-abrir-menu i {
     color: #05940a;
     font-size: 40px;
@@ -139,6 +133,11 @@ header nav.menu-desktop ul li {
 .menu-mobile nav ul li a:hover {
     background-color: #00FF08;
     color: #000;
+   
+}
+
+.overlay-menu {
+    background-color: #000;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -148,13 +147,7 @@ header nav.menu-desktop ul li {
     display: none;
 }
 
-.overlay-menu {
-    background-color: #000;
-}
 
-.btn-abrir-menu {
-    display: none;
-}
 
 /* ESTILO DO TOPO DO SITE */
 section.topo-do-site {
