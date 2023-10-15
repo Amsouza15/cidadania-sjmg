@@ -433,6 +433,12 @@ footer .line-footer p a {
         border-radius: 15px;
 
     }
+    h6 {
+    font-size: 12px;
+    text-align: center;
+    color: #106615;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
     /*AGENDA*/
     section.agenda {
